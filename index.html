@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<title>offbeat - offbeat</title>
+	<!-- =================== META =================== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- <link rel="shortcut icon" href="assets/img/favicon.png"> -->
+	<!-- =================== STYLE =================== -->
+	<link rel="stylesheet" href="assets/css/slick.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/slider.css">
+
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+	<style>
+		*{
+			scroll-behavior: smooth;
+		}
+		@media screen and (max-width: 575px){
+			.grid-sizer, .gallery-item {
+				width: 100%;
+				position: relative !important;
+				display: flex;
+				top: 0 !important;
+				left: 0 !important;
+			}
+
+			.slide {
+				height: 200px;
+			}
+
+			.carousel {
+			
+				height: 200px;
+			}
+
+			.wrapper {
+
+				height: 200px;
+			}
+
+			.s-fitness-slider {
+				height: 222px !important;
+			}
+			.s-fitness-slider:before {
+			
+				bottom: -30px;
+			
+			}
+
+			.member_cards {
+				-ms-flex: 0 0 100% !important;
+				flex: 0 0 100% !important;
+				max-width: 100% !important;
+			}
+}
+
+
+@media screen and (min-device-width: 350px) and (max-device-width: 400px) { 
+	.grid-gallery {
+  	  grid-template-columns: 170px 170px !important;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.grid-gallery {
+  	  grid-template-columns: 150px 150px !important;
+	}
+}
+
+
+.s-club-cards {
+    padding: 70px 0 180px;
+}
+
+.grid-sizer{
+	display: none;
+}
+.grid-gallery{
+	
+    position: relative;
+    height: 883.275px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 120px 120px 120px 120px;
+    gap: 5px;
+
+}
+
+.member_cards{
+	-ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.small_text{
+	font-size: 20px;
+    color: #fbdf06;
+}
+.club-cards-lite .club-card-item {
+   
+    justify-content: center;
+}	
+.club-cards-lite .club-card-item {
+   
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.s-fitness-slider{
+
+	height: 730px;
+}
+
+	</style>
+</head>
+
+<body id="home">
+	<!--================ PRELOADER ================-->
+	<div class="preloader-cover">
+		<div id="cube-loader">
+			<div class="caption">
+				<div class="cube-loader">
+					<div class="cube loader-1"></div>
+					<div class="cube loader-2"></div>
+					<div class="cube loader-4"></div>
+					<div class="cube loader-3"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============== PRELOADER END ==============-->
+	
+	<!-- ================= HEADER ================= -->
+	<header class="header">
+		
+		<div class="top-panel">
+			<div class="container">
+				<div class="header-left">
+					<ul class="header-cont">
+						<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:18004886040">8100059560</a></li>
+						<!-- <li><i class="fa fa-clock-o" aria-hidden="true"></i>Mon - Fri: 8:00AM - 7:00PM | Sat - Sun: Closed</li> -->
+					</ul>
+				</div>
+				<div class="header-right">
+					
+					<ul class="social-list">
+						<li><a target="_blank" href="https://www.facebook.com/OffbeatStrength/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<!-- <li><a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li> -->
+						<li><a target="_blank" href="https://www.instagram.com/offbeatstrength/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header-menu">
+			<div class="container">
+				<div class="header-logo">
+					<a href="#" class="logo"><img src="assets/img/Offbeat-Strength.png" alt="logo"></a>
+				</div>
+			
+			</div>
+			<nav class="nav-menu">
+				<ul class="nav-list">
+					<li class="dropdown">
+						<a href="#">Home</a>
+						
+					</li>
+					<li><a href="#facilities">Facilities</a></li>
+					<li><a href="#packages">Packages</a></li>
+					<li class="dropdown">
+						<a href="#testimonials">Testimonials</a>
+						
+					</li>
+					<li><a href="#gallery">Gallery</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+		
+	</header>
+	<!-- =============== HEADER END =============== -->
+
+
+	
+	
+		<!-- ============ S-FITNESS-SLIDER ============ -->
+		<section class="s-fitness-slider">
+			
+	<div class="wrapper">
+  
+		<div class="carousel">
+		  <div class="inner">
+			<div class="slide active">
+				<!-- <div class="fitness-slide-cover">
+					<h2 class="title">push <span>yourself</span></h2>
+				</div> -->
+			</div>
+			<div class="slide">
+			  <!-- <h1>2</h1> -->
+			</div>
+			<div class="slide">
+				<!-- <h1>3</h1> -->
+			</div>
+		  </div>
+		  <div class="arrow arrow-left"></div>
+		  <div class="arrow arrow-right"></div>
+		</div>
+	  
+	  </div>
+		</section>
+		<!-- ========== S-FITNESS-SLIDER END ========== -->
+
+
+	
+
+	
+
+	<!-- ============== S-OUR-PROGRAMS ============== -->
+	<section id="facilities" class="s-our-programs" style="background: #6c6c6c;">
+		<div class="mask"></div>
+		<div class="container">
+			<h2 class="title-decor">Our <span>Facilities</span></h2>
+			<p class="slogan">There's more to your membership than just machines!</p>
+			<div class="row">
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-1.jpg);">
+							<div class="program-item-inner">
+								<h3>Free parking</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-1.jpg);">
+							<div class="program-item-inner">
+								<h3>Free parking</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>Strength section</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>Strength section</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-3.jpg);">
+							<div class="program-item-inner">
+								<h3>Cardio section</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-3.jpg);">
+							<div class="program-item-inner">
+								<h3>Cardio section</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3>1:1 personal training exercise</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3>1:1 personal training exercise</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>Group exercises</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>Group exercises</h3>
+
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3>Free wifi</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3>Free wifi</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col" >
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>Proper security</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>Proper security</h3>
+
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3>24x7 gym in Kolkata</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3>24x7 gym in Kolkata</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-6 program-col" style="padding-top: 40px;">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>World class equipments</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-2.jpg);">
+							<div class="program-item-inner">
+								<h3>World class equipments</h3>
+
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-6 program-col">
+					<div class="program-item">
+						<div class="program-item-front" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3> Krav maga</h3>
+							</div>
+						</div>
+						<div class="program-item-back" style="background-image: url(assets/img/programs-4.jpg);">
+							<div class="program-item-inner">
+								<h3> Krav maga</h3>
+								<!-- <a href="program.html" class="btn">More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ============ S-OUR-PROGRAMS END ============ -->
+
+	<!-- ============ S-CROSSFIT-SLIDER ============ -->
+	<section class="s-crossfit-slider crossfit-slider-lite">
+		<div class="crossfit-slider">
+			<div class="crossfit-slide">
+				<div class="crossfit-slide-bg" style="background-image: url(assets/img/slide-1.jpg);"></div>
+				<div class="container">
+					<div class="crossfit-slide-cover">
+						<h2 class="title">push <span>yourself</span></h2>
+						<p>Offbeat Strength helps hone the power within you with grit and perseverance</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="slider-navigation"></div>
+	</section>
+	<!-- ========== S-CROSSFIT-SLIDER END ========== -->
+
+
+
+	<!-- ============== S-CLUB-CARDS ============== -->
+	<section id="packages" class="s-club-cards club-cards-lite">
+		<div class="container">
+			<h2 class="title-decor">Packages</h2>
+			<p class="slogan">Let's make fitness fun. Our expert team is here to inspire, instruct, and set you on a personalized path leading you to your best self.</p>
+			<div class="row">
+				<div class="col-md-2 col-12 club-card-col">
+					<div class="club-card-item">
+						<div class="price-cover">
+							<div class="price"><span>₹</span>2000</div>
+							<div class="date">Monthly</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-2 col-12 club-card-col member_cards">
+					<div class="club-card-item">
+						<div class="price-cover">
+							<div class="price"><span>₹</span>5000</div>
+							<div class="date">Quarterly</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-2 col-12 club-card-col member_cards">
+					<div class="club-card-item">
+						<div class="price-cover">
+							<div class="price"><span>₹</span>9000</div>
+							<div class="date">Half Yearly</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-2 col-12 club-card-col member_cards">
+					<div class="club-card-item">
+						<div class="price-cover">
+							<div class="price"><span>₹</span>15000</div>
+							<div class="date">Yearly</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-2 col-12 club-card-col member_cards">
+					<div class="club-card-item">
+						<div class="price-cover">
+							<div class="price"><span>₹</span>5000</div>
+							<span class="small_text">(12 classes)</span>
+							<div class="price mt-4"><span>₹</span>9000</div>
+							<span class="small_text">(24 classes)</span>
+							<div class="date">Personal Training</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ============ S-CLUB-CARDS END ============ -->
+
+	<!-- ============== S-TESTIMONIALS ============== -->
+	<section  class="s-testimonials testimonials-border" style="background-image: url(assets/img/bg-testimonials.jpg);">
+		<div class="mask"></div>
+		<div class="container" id="testimonials">
+			<div class="testimonials-slider">
+				<div class="testimonial-slide">
+					<img src="assets/img/testimonials-1.png" alt="img">
+					<h3 class="name">Anna Piters</h3>
+					<div class="prof">our client</div>
+					<p>“Phasellus vestibulum nec dolor quis varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida magna sit amet euismod lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit”</p>
+				</div>
+				<div class="testimonial-slide">
+					<img src="assets/img/testimonials-2.png" alt="img">
+					<h3 class="name">Mark Klark</h3>
+					<div class="prof">our client</div>
+					<p>“Phasellus vestibulum nec dolor quis varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida magna sit amet euismod lacinia.”</p>
+				</div>
+				<div class="testimonial-slide">
+					<img src="assets/img/testimonials-3.png" alt="img">
+					<h3 class="name">Kat Smith</h3>
+					<div class="prof">our client</div>
+					<p>“Phasellus vestibulum nec dolor quis varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus gravida magna sit amet euismod lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit”</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ============ S-TESTIMONIALS END ============ -->
+
+	<!-- Gallery section   -->
+
+	<section class="s-fitness-gallery">
+		<div class="container"  id="gallery" >
+			<h2 class="title-decor">Our <span>Gallery</span></h2>
+			<p class="slogan">Offbeat Strength believes in keeping it real!</p>
+			<div class="row-gallery">
+				<div class="grid-gallery" style="position: relative; height: 883.275px;">
+					<div class="grid-sizer"></div>
+					<div class="gallery-item" style="position: absolute; left: 0%; top: 0px;">
+						<a href="assets/img/Selected/SOU_4470.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4470.jpg" alt="img">
+							<div class="gal-item">
+							
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 25%; top: 0px;">
+						<a href="assets/img/Selected/SOU_4462.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4462.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 50%; top: 0px;">
+						<a href="assets/img/Selected/SOU_4480.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4480.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 75%; top: 0px;">
+						<a href="assets/img/Selected/SOU_4484.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4484.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+
+
+					<div class="gallery-item" style="position: absolute; left: 0%;    top: 27%;">
+						<a href="assets/img/Selected/SOU_4489.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4489.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 25%;    top: 27%;">
+						<a href="assets/img/Selected/SOU_4493.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4493.jpg" alt="img">
+							<div class="gal-item">
+							
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 50%;    top: 27%;">
+						<a href="assets/img/Selected/SOU_4514.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4514.jpg" alt="img">
+							<div class="gal-item">
+							
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 75%;    top: 27%;">
+						<a href="assets/img/Selected/SOU_4519.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4519.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+
+					
+					<div class="gallery-item" style="position: absolute; left: 0%;    top: 54%;">
+						<a href="assets/img/Selected/SOU_4551.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4551.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 25%;    top: 54%;">
+						<a href="assets/img/Selected/SOU_4561.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4561.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 50%;    top: 54%;">
+						<a href="assets/img/Selected/SOU_4586.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4586.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					<div class="gallery-item" style="position: absolute; left: 75%;    top: 54%;">
+						<a href="assets/img/Selected/SOU_4489.jpg" data-fancybox="gallery1">
+							<img src="assets/img/Selected/SOU_4489.jpg" alt="img">
+							<div class="gal-item">
+								
+							</div>
+						</a>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<!-- Gallery section   -->
+	<!-- ================== FOOTER ================== -->
+	<section class="s-counter" style="background-image: url(assets/img/bg-2.jpg);">
+		<div class="mask"></div>
+		<div class="container">
+			<h2 class="title-decor">Offbeat <span>Newsletter</span></h2>
+			<p class="slogan">Want to know what's up in the fitness world? Subscribe to The Offbeat Strength Newsletter today.</p>
+			
+			<form class="subscribe-form">
+				<input class="inp-form" type="email" name="subscribe" placeholder="Your E-mail">
+				<button type="submit" class="btn">Subscribe</button>
+			</form>
+		</div>
+	</section>
+	<!-- ================== FOOTER ================== -->
+
+	<!-- ================== FOOTER ================== -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-lg-4 footer-item-logo">
+					<a href="#" class="logo-footer"><img src="assets/img/Offbeat-Strength.png" alt="logo"></a>
+					<p>
+						</p>
+					<ul class="social-list">
+						<li><a target="_blank" href="https://www.facebook.com/OffbeatStrength/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<!-- <li><a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li> -->
+						<li><a target="_blank" href="https://www.instagram.com/offbeatstrength/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-lg-4 footer-item footer-item-list">
+					<h3>Links</h3>
+					<ul class="footer-link">
+						<li>
+							<a href="#">Home</a>
+							
+						</li>
+						<li><a href="#facilities">Facilities</a></li>
+						<li><a href="#packages">Packages</a></li>
+						<li>
+							<a href="#testimonials">Testimonials</a>
+							
+						</li>
+						<li><a href="#gallery">Gallery</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-lg-4 footer-item">
+					<h3>Contact us</h3>
+					<ul class="footer-cont">
+						<li><i class="fa fa-phone" aria-hidden="true"></i><a>083368 67236 /8100059560</a></li>
+						
+						<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:crossFit@gmail.com">community@offbeatccu.com</a></li>
+						<li><i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">offbeatstrength 2nd Floor, 36/F, Topsia Rd, Topsia Kolkata, West Bengal, India 700039</a></li>
+					</ul>
+				</div>
+			
+			</div>
+			<div class="footer-bottom">
+				<div class="copyright"><a href="#" target="_blank"></a></div>
+				<!-- <ul class="footer-menu">
+					<li class="active"><a href="index-2.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="blog.html">News</a></li>
+					<li><a href="contacts.html">Contacts</a></li>
+				</ul> -->
+			</div>
+		</div>
+	</footer>
+	<!-- ================ FOOTER END ================ -->
+
+	<!--=================== TO TOP ===================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-chevron-up" aria-hidden="true"></i>
+	</a>
+	<!--================= TO TOP END =================-->
+
+	<!--=================== SCRIPT	===================-->
+	<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/rx-lazy.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<script src="assets/js/slider.js"></script>
+
+</body>
+
+</html>
